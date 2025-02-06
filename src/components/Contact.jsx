@@ -19,7 +19,7 @@ const Contact = () => {
           initial={{opacity: 0, x:-100}}
           transition={{duration: 1}}
            className="my-4">{CONTACT.phoneNo}</motion.p>
-          <a href='fareedtijani2810@gmail.com' className="border-b">{CONTACT.email}</a>
+          <a href='mailto:fareedtijani2810@gmail.com?subject=Job%20Inquiry&body=Hello%20Fareed,' className="border-b">{CONTACT.email}</a>
       </div>
     </div>
   )
