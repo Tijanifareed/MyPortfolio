@@ -48,8 +48,8 @@ const Hero = () => {
                animate={{x:0, opacity:1}}
                transition={{duration: 1, delay: 1.2, }}
                src={profilePic}
-               width={520}
-               style={{ height: '500px' }}
+               width={500}
+               style={{ height: '470px',objectFit:"cover" }}
                className="rounded-2xl"
                alt="Fareed tijani" />
 

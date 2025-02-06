@@ -17,8 +17,8 @@ const About = () => {
               <div className="flex items-center justify-center">
                     <img className="rounded-2xl"
                      src={aboutImg}
-                     width={520}
-                     style={{ height: '500px' }}
+                     width={500}
+               style={{ height: '470px',objectFit:"cover" }}
                       alt="about"/>
               </div>
           </motion.div>
@@ -28,7 +28,9 @@ const About = () => {
           transition
           className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:justify-start">
-                         <h2 className="my-2 max-w-xl py-6 ">{ABOUT_TEXT}</h2>
+                         <h2 className="my-2 max-w-xl py-6 
+                         
+                         ">{ABOUT_TEXT}</h2>
                     </div>
               </motion.div>
       </div>

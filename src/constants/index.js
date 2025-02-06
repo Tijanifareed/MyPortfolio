@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a highly productive Software Engineer passionate about designing scalable, high-performance software solutions. I am proficient in Java, Python, JavaScript, and Dart, and experienced with frameworks and tools such as Spring Boot, React, and Flutter. I have strong knowledge in database management and version control, and am skilled in building secure REST APIs and implementing robust authentication protocols.`;
 
@@ -22,6 +22,8 @@ export const PROJECTS = [
   {
     title: "CommsBridge Mobile App",
     image: project1,
+    github:"https://github.com/CommsBridge",
+    postman:"https://documenter.getpostman.com/view/36978958/2sAYX8HLW5",
     description:
       "An assistive mobile app enhancing communication for the hearing impaired.",
     technologies: ["Flutter", "Java", "Python", "Spring-Boot", "MySQL", "FastAPI"],
@@ -29,6 +31,8 @@ export const PROJECTS = [
   {
     title: "RealMart",
     image: project2,
+    github:"https://github.com/RealMarts",
+    postman:"",
     description:
       "A full-stack online marketplace for seamless buying and selling of handmade products.",
     technologies: ["Java", "React", "TailwindCSS", "PostgreSQL","Spring-Boot"],
@@ -36,6 +40,8 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    github:"https://github.com/Tijanifareed/MyPortfolio.git",
+    postman:"",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind", "Framer-motion",],
@@ -43,6 +49,8 @@ export const PROJECTS = [
   {
     title: "Digital Library management system Backend",
     image: project4,
+    github:"https://github.com/Tijanifareed/Library-Management-System.git",
+    postman:"",
     description:
       "The Digital Library Management System automates core library functions. It manages book collections and member records, allowing users to borrow, return, and reserve books, while automatically generating fines for overdue items. Administrators have full control to update and manage all records.",
     technologies: ["Java", "Spring-Boot", "MySQL"],
