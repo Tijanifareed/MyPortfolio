@@ -35,7 +35,6 @@ const Projects = () => {
                          <h6 className="mb-2 font-semibold">{project.title}</h6>
                          <div>
                          <a className="text-xs text-violet-600" href={project.github}>GitHub</a> 
-                         <a className="text-xs ml-2 text-violet-600" href={project.postman}>Postman</a>
 
                          </div>
                          <p className="mb-4 text-neutral-400">{project.description}</p>
