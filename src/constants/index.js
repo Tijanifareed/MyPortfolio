@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Software Engineer (Trainee)",
     company: "Semicolon Africa",
     description: `I immersed myself in a fast-paced, collaborative environment that honed my problem-solving and adaptive learning skills. I developed a solid foundation in full-stack web development while embracing agile methodologies, which improved my teamwork, communication, and ability to navigate complex challenges efficiently.`,
-    technologies: [ "Agile Methodology", "Version Control", "Design-Thinking", "Critical-Thinking",],
+    technologies: ["Full-Stack Development","Databases", "Agile Methodology", "Version Control", "Design-Thinking", "Critical-Thinking",],
   },
 
 ];
@@ -26,7 +26,7 @@ export const PROJECTS = [
     postman:"https://documenter.getpostman.com/view/36978958/2sAYX8HLW5",
     description:
       "An assistive mobile app enhancing communication for the hearing impaired.",
-    technologies: ["Flutter", "Java", "Python", "Spring-Boot", "MySQL", "FastAPI"],
+    technologies: ["Flutter(Dart)", "Java(Spring-Boot)", "Python(FastAPI)", "MySQL", ],
   },
   {
     title: "RealMart",
@@ -35,7 +35,7 @@ export const PROJECTS = [
     postman:"",
     description:
       "A full-stack online marketplace for seamless buying and selling of handmade products.",
-    technologies: ["Java", "React", "TailwindCSS", "PostgreSQL","Spring-Boot"],
+    technologies: ["Java(Spring-Boot)", "React", "TailwindCSS", "PostgreSQL"],
   },
   {
     title: "Portfolio Website",
@@ -53,7 +53,7 @@ export const PROJECTS = [
     postman:"",
     description:
       "The Digital Library Management System automates core library functions. It manages book collections and member records, allowing users to borrow, return, and reserve books, while automatically generating fines for overdue items. Administrators have full control to update and manage all records.",
-    technologies: ["Java", "Spring-Boot", "MySQL"],
+    technologies: ["Java(Spring-Boot)", "MySQL"],
   },
 ];
 
