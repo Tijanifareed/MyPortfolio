@@ -13,9 +13,17 @@ const NavBar = () => {
                <h1 className="mx-2 w-10 text-4xl">FT</h1>
           </div>
           <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <a href=".../public/fareedcv.pdf" target="_blank" download className="px-6 py-3 bg-transparent-500 text-white text-lg font-semibold ">
+          {/* <a href=".../public/fareedcv.pdf" target="_blank" download className="px-6 py-3 bg-transparent-500 text-white text-lg font-semibold ">
                CV
+          </a> */}
+          <a 
+               href="/fareedcv.pdf"  // Remove "public" from the path
+               download="Tijani_Fareed_CV.pdf"
+                className="px-6 py-3 bg-transparent-500 text-white text-lg font-semibold "
+          >
+                CV
           </a>
+
 
 
                <a href="https://www.linkedin.com/in/fareed-tijani-b693492b9/"><FaLinkedin/></a>
