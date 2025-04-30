@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png"
 
 export const HERO_CONTENT = `I am a highly productive Software Engineer passionate about designing scalable, high-performance software solutions. I am proficient in Java, Python, JavaScript, and Dart, and experienced with frameworks and tools such as Spring Boot, React, and Flutter. I have strong knowledge in database management and version control, and am skilled in building secure REST APIs and implementing robust authentication protocols.`;
 
@@ -9,10 +10,10 @@ export const ABOUT_TEXT = `I am a dedicated software engineer who thrives on pro
 
 export const EXPERIENCES = [
   {
-    year: "Feb 2025 - Present",
+    year: "Feb 2025 - May 2025",
     role: "Mobile Developer (Intern)",
     company: " 3ribe",
-    description: `At 3ribe, I am gaining hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
+    description: `At 3ribe, I gained hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
     technologies: ["Flutter","Firebase", "Agile Methodology", "Version Control",],
   },
   {
@@ -47,6 +48,17 @@ export const PROJECTS = [
       "A full-stack online marketplace for seamless buying and selling of handmade products.",
     technologies: ["Java(Spring-Boot)", "React", "TailwindCSS", "PostgreSQL"],
   },
+
+  {
+    title: "Treelink-Inspired Portfolio for Fabhands",
+    image: project5,
+    github:"https://fabhands-link.vercel.app/",
+    postman:"",
+    description:
+      "Designed and developed a streamlined link-in-bio website for a freelance makeup artist to showcase their services, portfolio, testimonials, and contact information in one easily accessible hub.",
+    technologies: ["React", "Vite", "TailwindCSS",],
+  },
+  
   {
     title: "Portfolio Website",
     image: project3,

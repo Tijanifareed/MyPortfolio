@@ -34,7 +34,7 @@ const Projects = () => {
                     className="w-full max-w-wl lg:w-3/4">
                          <h6 className="mb-2 font-semibold">{project.title}</h6>
                          <div>
-                         <a className="text-xs text-violet-600" href={project.github}>GitHub</a> 
+                         <a className="text-xs text-violet-600" href={project.github}>GitHub / Live demo</a> 
 
                          </div>
                          <p className="mb-4 text-neutral-400">{project.description}</p>
