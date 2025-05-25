@@ -7,6 +7,10 @@ import { IoLogoPython } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import {motion} from "framer-motion";
+import { SiDjango } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+
+
 
 const iconVariants = (duration) => ({
   initial: {y: -10},
@@ -44,36 +48,31 @@ const Technologies = () => {
       animate="animate"
       className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiJavaFill className="text-7xl text-sky-400"/>
+      </motion.div>
+
+      <motion.div
+          variants={iconVariants(6.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <BiLogoSpringBoot className="text-7xl text-lime-400"/>
           </motion.div>
-          <motion.div
+         
+
+      <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
                     <IoLogoPython className="text-7xl text-yellow-300"/>
-          </motion.div>
+      </motion.div>
+           <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiDjango className="text-7xl text-white"/>
 
-          
-          <motion.div
-          variants={iconVariants(5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiFlutterFill className="text-7xl text-sky-400"/>
-          </motion.div>
-          <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaNodeJs className="text-7xl text-green-400"/>
-          </motion.div>
-          <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <RiReactjsLine className="text-7xl text-cyan-400"/>
           </motion.div>
           
           <motion.div
@@ -81,23 +80,48 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <RiFlutterFill className="text-7xl text-sky-400"/>
+          </motion.div>
+          <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaNodeJs className="text-7xl text-green-400"/>
+          </motion.div>
+          <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <RiReactjsLine className="text-7xl text-cyan-400"/>
+          </motion.div>
+          
+          <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4">
                     <GrMysql className="text-7xl text-cyan-400"/>
           </motion.div>
           
           <motion.div
-          variants={iconVariants(5)}
+          variants={iconVariants(6)}
           initial="initial"
           animate="animate"
            className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiTypescript className="text-7xl text-sky-400"/>
           </motion.div>
+
           <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(6)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <BiLogoSpringBoot className="text-7xl text-lime-400"/>
+           className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaGitAlt className="text-7xl text-orange-800"/>
+
           </motion.div>
+          
       </motion.div>
     </div>
   )
