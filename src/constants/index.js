@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png"
 
-export const HERO_CONTENT = `I am a highly productive Software Engineer passionate about designing scalable, high-performance software solutions. I am proficient in Java, Python, JavaScript, and Dart, and experienced with frameworks and tools such as Spring Boot, React, and Flutter. I have strong knowledge in database management and version control, and am skilled in building secure REST APIs and implementing robust authentication protocols.`;
+export const HERO_CONTENT = `I am a highly productive Software Engineer passionate about designing scalable, high-performance software solutions. I am proficient in Java, Python, JavaScript, Dart, TypeScript, and HTML, i am experienced with frameworks and tools such as  Spring Boot, Flutter, Django, React, NestJS, Tailwind CSS, Flask, Node.js, and Next.js. I have strong knowledge in database management and version control, and am skilled in building secure REST APIs and implementing robust authentication protocols.`;
 
 export const ABOUT_TEXT = `I am a dedicated software engineer who thrives on problem-solving and leverages a diverse range of technologies as tools to overcome challenges. I believe that the right approach can transform complex issues into opportunities for innovation and efficiency. My proactive mindset and continuous learning enable me to adapt quickly in dynamic environments, always striving to deliver high-quality, impactful solutions.`;
 
