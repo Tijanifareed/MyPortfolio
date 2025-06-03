@@ -10,6 +10,14 @@ export const ABOUT_TEXT = `I am a dedicated software engineer who thrives on pro
 
 export const EXPERIENCES = [
   {
+    year: "May 2025 - Present",
+    role: "Backend Developer(Django)",
+    company: " Meerge Africa",
+    description: `Lead backend engineer driving the design and implementation of a startup delivery platform and fintech features .`,
+    technologies: ["Python", "Django", "Agile Methodology", "Version Control",],
+  },
+
+  {
     year: "Feb 2025 - May 2025",
     role: "Mobile Developer (Intern)",
     company: " 3ribe",
@@ -55,7 +63,7 @@ export const PROJECTS = [
     github:"https://fabhands-link.vercel.app/",
     postman:"",
     description:
-      "Designed and developed a streamlined link-in-bio website for a freelance makeup artist to showcase their services, portfolio, testimonials, and contact information in one easily accessible hub.",
+      "Designed and developed a streamlined Link-in-bio site for a  freelance artist with booking and digital brochure.",
     technologies: ["React", "Vite", "TailwindCSS",],
   },
   
