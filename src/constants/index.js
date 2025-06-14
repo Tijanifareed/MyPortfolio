@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png"
 
-export const HERO_CONTENT = `I am a highly productive Software Engineer passionate about designing scalable, high-performance software solutions. I am proficient in Java, Python, JavaScript, Dart, TypeScript, and HTML, i am experienced with frameworks and tools such as  Spring Boot, Flutter, Django, React, NestJS, Tailwind CSS, Flask, Node.js, and Next.js. I have strong knowledge in database management and version control, and am skilled in building secure REST APIs and implementing robust authentication protocols.`;
+export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
 
 export const ABOUT_TEXT = `I am a dedicated software engineer who thrives on problem-solving and leverages a diverse range of technologies as tools to overcome challenges. I believe that the right approach can transform complex issues into opportunities for innovation and efficiency. My proactive mindset and continuous learning enable me to adapt quickly in dynamic environments, always striving to deliver high-quality, impactful solutions.`;
 
@@ -19,16 +19,16 @@ export const EXPERIENCES = [
 
   {
     year: "Feb 2025 - May 2025",
-    role: "Mobile Developer (Intern)",
+    role: "Mobile Developer",
     company: " 3ribe",
     description: `At 3ribe, I gained hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
     technologies: ["Flutter","Firebase", "Agile Methodology", "Version Control",],
   },
   {
     year: "Feb 2024 -Feb 2025",
-    role: "Software Engineer (Trainee)",
+    role: "Software Engineer",
     company: " Semicolon Africa",
-    description: `I immersed myself in a fast-paced, collaborative environment that honed my problem-solving and adaptive learning skills. I developed a solid foundation in full-stack web development while embracing agile methodologies, which improved my teamwork, communication, and ability to navigate complex challenges efficiently.`,
+    description: `Built scalable backend systems and APIs that powered fast, reliable web and mobile apps. Focused on clean code, performance, and ease of maintenance to improve both user experience and developer workflow. Worked closely with cross-functional teams to deliver features that scaled smoothly and were easy to support.`,
     technologies: ["Full-Stack Development","Databases", "Agile Methodology", "Version Control", "Design-Thinking", "Critical-Thinking",],
   },
   

@@ -27,10 +27,8 @@ const NavBar = () => {
 
 
                <a href="https://www.linkedin.com/in/fareed-tijani-b693492b9/"><FaLinkedin/></a>
-               
                <a href="https://github.com/Tijanifareed"><FaGithub/></a>
                <a href='https://www.instagram.com/agent_freddie/'><FaInstagram/></a>
-               
                <a href="https://x.com/Agent_freddie4"><FaSquareXTwitter/></a>
           </div>
      </nav>
