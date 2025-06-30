@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I'm not here to tick boxes I build, I ship, and I sol
 
 export const EXPERIENCES = [
   {
-    year: "May 2025 - Present",
+    year: "May 2025",
     role: "Backend Developer(Django)",
     company: " Meerge Africa",
     description: `Lead backend engineer driving the design and implementation of a startup delivery platform and fintech features .`,
@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   },
 
   {
-    year: "Feb 2025 - May 2025",
+    year: "February 2025 - April 2025",
     role: "Mobile Developer",
     company: " 3ribe",
     description: `At 3ribe, I gained hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
@@ -31,6 +31,13 @@ export const EXPERIENCES = [
     description: `Built scalable backend systems and APIs that powered fast, reliable web and mobile apps. Focused on clean code, performance, and ease of maintenance to improve both user experience and developer workflow. Worked closely with cross-functional teams to deliver features that scaled smoothly and were easy to support.`,
     technologies: ["Full-Stack Development","Databases", "Agile Methodology", "Version Control", "Design-Thinking", "Critical-Thinking",],
   },
+  {
+    year:"January 2023 – February 2024",
+    role:"Software Engineer ",
+    company: " Independent Contracts",
+    description:`Delivered end-to-end software solutions for international clients across lifestyle, e-commerce, and personal branding sectors, focusing on scalability, usability, and performance.`,
+    technologies: ["Front-end Development", "React", "TailwindCSS", "HTML", "CSS"]
+  }
   
 
   
