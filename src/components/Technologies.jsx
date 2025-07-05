@@ -12,6 +12,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 
 
+
 const iconVariants = (duration) => ({
   initial: {y: -10},
   animate: {
