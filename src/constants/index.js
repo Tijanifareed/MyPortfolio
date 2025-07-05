@@ -33,7 +33,7 @@ export const EXPERIENCES = [
   },
   {
     year:"January 2023 – February 2024",
-    role:"Software Engineer ",
+    role: "Software Engineer ",
     company: " Independent Contracts",
     description:`Delivered end-to-end software solutions for international clients across lifestyle, e-commerce, and personal branding sectors, focusing on scalability, usability, and performance.`,
     technologies: ["Front-end Development", "React", "TailwindCSS", "HTML", "CSS"]
