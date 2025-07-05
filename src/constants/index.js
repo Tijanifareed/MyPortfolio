@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     role: "Mobile Developer",
     company: " 3ribe",
     description: `At 3ribe, I gained hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
-    technologies: ["Flutter","Firebase", "Agile Methodology", "Version Control",],
+    technologies: ["Flutter", "Firebase", "Agile Methodology", "Version Control",],
   },
   {
     year: "Feb 2024 -Feb 2025",
