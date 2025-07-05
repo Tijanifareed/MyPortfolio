@@ -84,7 +84,7 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "Framer-motion"],
   },
   {
-    title: "Digital Library management system Backend",
+    title: "Digital Library management system (Backend)",
     image: project4,
     github:"https://github.com/Tijanifareed/Library-Management-System.git",
     postman:"",
