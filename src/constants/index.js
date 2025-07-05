@@ -71,7 +71,7 @@ export const PROJECTS = [
     postman:"",
     description:
       "Designed and developed a streamlined Link-in-bio site for a  freelance artist with booking and digital brochure.",
-    technologies: ["React", "Vite", "TailwindCSS",],
+    technologies: ["React", "Vite", "TailwindCSS"],
   },
   
   {
@@ -81,7 +81,7 @@ export const PROJECTS = [
     postman:"",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind", "Framer-motion",],
+    technologies: ["React", "Tailwind", "Framer-motion"],
   },
   {
     title: "Digital Library management system Backend",
@@ -96,6 +96,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Sabo, Lagos, Nigeria",
-  phoneNo: "+234 8130926516",
+  phoneNo: "+2348130926516",
   email: "fareedtijani2810@gmail.com",
 };
