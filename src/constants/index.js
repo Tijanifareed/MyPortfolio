@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png"
 
-export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
+export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django, Javascript/Nodejs), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
 
 export const ABOUT_TEXT = `I'm not here to tick boxes I build, I ship, and I solve problems that matter. With 3+ years of full-stack experience across fintech, logistics, and commerce, I’ve delivered platforms that scale, under pressure, in real-world use. I thrive in execution-focused teams where outcomes beat credentials and speed meets structure. Whether it’s backend systems in Spring Boot/Django, frontend in React, or mobile in Flutter I come with a builder's mindset and a product-driven attitude.`;
 
