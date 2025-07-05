@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `I'm not here to tick boxes I build, I ship, and I sol
 export const EXPERIENCES = [
   {
     year: "May 2025",
-    role: "Backend Developer(Django)",
+    role: "Backend Developer",
     company: " Meerge Africa",
     description: `Lead backend engineer driving the design and implementation of a startup delivery platform and fintech features .`,
     technologies: ["Python", "Django", "Agile Methodology", "Version Control",],
