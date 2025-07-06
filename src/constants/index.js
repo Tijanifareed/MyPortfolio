@@ -75,7 +75,7 @@ export const PROJECTS = [
   },
   
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     image: project3,
     github:"https://github.com/Tijanifareed/MyPortfolio.git",
     postman:"",
