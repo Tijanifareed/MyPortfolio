@@ -18,7 +18,7 @@ const NavBar = () => {
           </a> */}
           <a 
                href="/fareedcv.pdf"  // Remove "public" from the path
-               download="Fareed_Tijani_CV.pdf"
+               download="Fareed_Resume.pdf"
                 className="px-6 py-3 bg-transparent-500 text-white text-lg font-semibold "
           >
                 CV
