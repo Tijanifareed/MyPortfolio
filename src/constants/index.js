@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     role: "Backend Developer",
     company: " Meerge Africa",
     description: `Lead backend engineer driving the design and implementation of a startup delivery platform and fintech features .`,
-    technologies: ["Python", "Django", "Agile Methodology", "Version Control",],
+    technologies: ["Python", "Django", "Agile Methodology", "Version Control"],
   },
 
   {
@@ -22,10 +22,10 @@ export const EXPERIENCES = [
     role: "Mobile Developer",
     company: " 3ribe",
     description: `At 3ribe, I gained hands-on experience in mobile development by working on a Flutter-based application, improving UI responsiveness and optimizing the user experience.`,
-    technologies: ["Flutter", "Firebase", "Agile Methodology", "Version Control",],
+    technologies: ["Flutter", "Firebase", "Agile Methodology", "Version Control"],
   },
   {
-    year: "Feb 2024 -Feb 2025",
+    year: "Feb 2024 - Feb 2025",
     role: "Software Engineer",
     company: " Semicolon Africa",
     description: `Built scalable backend systems and APIs that powered fast, reliable web and mobile apps. Focused on clean code, performance, and ease of maintenance to improve both user experience and developer workflow. Worked closely with cross-functional teams to deliver features that scaled smoothly and were easy to support.`,
@@ -36,7 +36,7 @@ export const EXPERIENCES = [
     role: "Software Engineer ",
     company: " Independent Contracts",
     description:`Delivered end-to-end software solutions for international clients across lifestyle, e-commerce, and personal branding sectors, focusing on scalability, usability, and performance.`,
-    technologies: ["Front-end Development", "React", "TailwindCSS", "HTML", "CSS"]
+    technologies: ["Full-stack Development", "React", "TailwindCSS", "HTML", "CSS"]
   }
   
 
