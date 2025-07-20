@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     year: "May 2025",
     role: "Backend Developer",
     company: " Meerge Africa",
-    description: `Lead backend engineer driving the design and implementation of a startup delivery platform and fintech features .`,
+    description: `Lead backend engineer driving the design and implementation of a startup Logistics Plaform.`,
     technologies: ["Python", "Django", "Agile Methodology", "Version Control"],
   },
 
