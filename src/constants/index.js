@@ -3,6 +3,9 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png"
+import project6 from "../assets/projects/project-6.png"
+import project7 from "../assets/projects/project-7.png"
+
 
 export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django, Javascript/Nodejs), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
 
@@ -95,7 +98,7 @@ export const PROJECTS = [
 
   {
     title: "Online Clothing Store",
-    image: '',
+    image: project6,
     github:"https://interwave-one.vercel.app/",
     postman:"",
     description:
@@ -105,7 +108,7 @@ export const PROJECTS = [
 
   {
     title: "Makeup Artist E-commerce Site",
-    image: '',
+    image: project7,
     github:"https://beautybytumi.vercel.app/",
     postman:"",
     description:
