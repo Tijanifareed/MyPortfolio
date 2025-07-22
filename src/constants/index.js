@@ -92,6 +92,29 @@ export const PROJECTS = [
       "The Digital Library Management System automates core library functions. It manages book collections and member records, allowing users to borrow, return, and reserve books, while automatically generating fines for overdue items. Administrators have full control to update and manage all records.",
     technologies: ["Java(Spring-Boot)", "MySQL"],
   },
+
+  {
+    title: "Online Clothing Store",
+    image: '',
+    github:"https://interwave-one.vercel.app/",
+    postman:"",
+    description:
+      "Built A demo e-commerce website for a clothing brand",
+    technologies: ["NextJS", "React", "TailwindCSS"],
+  },
+
+  {
+    title: "Makeup Artist E-commerce Site",
+    image: '',
+    github:"https://beautybytumi.vercel.app/",
+    postman:"",
+    description:
+      "Built A demo website for a make-up Artist.",
+    technologies: ["NextJS", "React", "TailwindCSS"],
+  },
+
+
+  
 ];
 
 export const CONTACT = {
