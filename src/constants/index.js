@@ -5,6 +5,8 @@ import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png"
 import project6 from "../assets/projects/project-6.png"
 import project7 from "../assets/projects/project-7.png"
+import project8 from "../assets/projects/project-8.jpg"
+
 
 
 export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django, Javascript/Nodejs), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
@@ -56,6 +58,15 @@ export const PROJECTS = [
     description:
       "An assistive mobile app enhancing communication for the hearing impaired.",
     technologies: ["Flutter(Dart)", "Java(Spring-Boot)", "Python(FastAPI)", "MySQL", ],
+  },
+  {
+    title: "Consumer Data Ingestion System",
+    image: project8,
+    github:"https://github.com/Tijanifareed/aktos-assignment.git",
+    postman:"https://fareed-team-7973.postman.co/workspace/c6250aa7-94a0-49bf-8031-508196beb84e/collection/44846809-153e881b-cb50-4d91-a430-176933ea161e?action=share&source=copy-link&creator=44846809",
+    description:
+      "A robust full-stack Django application to ingest, manage, and query consumer data, featuring a scalable API with filtering and offset-based pagination for handling large datasets.",
+    technologies: [ "Python, Django, PostgreSQL (Railway), Render, Postman, Git, Vercel"],
   },
   {
     title: "RealMart",
