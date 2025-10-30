@@ -6,6 +6,7 @@ import project5 from "../assets/projects/project-5.png"
 import project6 from "../assets/projects/project-6.png"
 import project7 from "../assets/projects/project-7.png"
 import project8 from "../assets/projects/project-8.jpg"
+import project0 from "../assets/projects/project-0.png"
 
 
 
@@ -50,6 +51,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "HireJourney",
+    image: project0,
+    github:"https://hirejourney.xyz/",
+    postman:"",
+    description:
+      "AI-powered career platform guiding job seekers through resume optimization and job tracking.",
+    technologies: [ "Vite + React", "Node.js", "FastAPI", "Python", "LLm", "PyMuPDF", "Tesseract OCR", "BeautifulSoup", "TailwindCSS", "TanStack", "Visily (UI)"],
+  },
   {
     title: "CommsBridge Mobile App",
     image: project1,
