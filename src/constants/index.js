@@ -10,11 +10,20 @@ import project0 from "../assets/projects/project-0.png"
 
 
 
-export const HERO_CONTENT = `Full-Stack Software Engineer with 3+ years of experience turning ideas into real-world fintech, logistics, and e-commerce products. I specialize in backend engineering (Java/Spring Boot, Python/Django, Javascript/Nodejs), frontend development with React, and cross-platform mobile apps using Flutter. My work spans cloud-native systems, fast product delivery, and collaborative feature development in agile teams. I thrive in fast-moving environments and am open to remote roles or relocation opportunities worldwide.`;
+export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
 
-export const ABOUT_TEXT = `I'm not here to tick boxes I build, I ship, and I solve problems that matter. With 3+ years of full-stack experience across fintech, logistics, and commerce, I’ve delivered platforms that scale, under pressure, in real-world use. I thrive in execution-focused teams where outcomes beat credentials and speed meets structure. Whether it’s backend systems in Spring Boot/Django/Nestjs or any other backend framework, frontend in React/HTML, or mobile in Flutter I come with a builder's mindset and a product-driven attitude.`;
+export const ABOUT_TEXT = `I started writing code at 16, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, and logistics APIs across teams and independently.
+Most recently I built HireJourney solo from scratch. FastAPI backend, React and TypeScript frontend, OpenRouter LLM integrations, Redis caching, Chrome extension, and dual payment infrastructure with automatic IP-based routing. Live users, real product.
+I've worked in agile teams, shipped under pressure, and taken ownership of features end to end. Whether I'm collaborating or building independently, I show up the same way focused on outcomes, not just tasks.`;
 
 export const EXPERIENCES = [
+  {
+year: "Oct 2025 - Present",
+role: "Full-Stack Engineer & Founder",
+company: "HireJourney",
+description: `Built and shipped a full-stack AI career platform entirely solo from zero to live users. Designed and developed 40+ RESTful APIs with FastAPI covering auth, resume analysis, job tracking, cover letter generation, and interview simulation. Integrated OpenRouter for real-time LLM features including job fit scoring, ATS analysis, and dynamic interview question generation tailored to specific job descriptions. Built a voice-driven Interview Simulator using the Web Speech API with zero third-party cost. Shipped a Chrome Extension that pulls job descriptions from job boards and triggers AI analysis in one click. Implemented dual payment infrastructure with Paystack and Lemon Squeezy with automatic IP-based routing for Nigerian and international users. Deployed backend on Fly.io and frontend on Vercel with full CI/CD pipeline.`,
+technologies: ["FastAPI", "React", "TypeScript", "PostgreSQL", "Redis", "OpenRouter", "Chrome Extension", "Paystack", "Lemon Squeezy", "Fly.io", "Vercel"],
+},
   {
     year: "May 2025",
     role: "Backend Developer",
@@ -51,15 +60,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "HireJourney",
-    image: project0,
-    github:"https://hirejourney.xyz/",
-    postman:"",
-    description:
-      "AI-powered career platform guiding job seekers through resume optimization and job tracking.",
-    technologies: [ "Vite + React", "Node.js", "FastAPI", "Python", "LLm", "PyMuPDF", "Tesseract OCR", "BeautifulSoup", "TailwindCSS", "TanStack", "Visily (UI)"],
-  },
   {
     title: "CommsBridge Mobile App",
     image: project1,
