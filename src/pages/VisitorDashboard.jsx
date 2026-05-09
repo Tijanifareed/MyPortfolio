@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { supabase } from '../lib/supabase'
 
-/* ─── tiny country-code → flag emoji helper ─────────────────────────── */
 const flag = (cc) =>
   cc
     ? String.fromCodePoint(
