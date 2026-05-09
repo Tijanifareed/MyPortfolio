@@ -5,7 +5,16 @@ import Technologies from "./components/Technologies"
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { useVisitorTracking } from './hooks/useVisitorTracking'
+import VisitorDashboard from './pages/VisitorDashboard'
+
+
 const App = () => { 
+  useVisitorTracking()
+
+  if (window.location.pathname === '/dashboard') {
+    return <VisitorDashboard />
+  }
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300
     selection:text-cyan-900">
