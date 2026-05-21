@@ -12,7 +12,7 @@ import project0 from "../assets/projects/project-0.png"
 
 export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
 
-export const ABOUT_TEXT = `I started writing code at 16, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, and logistics APIs across teams and independently.
+export const ABOUT_TEXT = `I started writing code at 15, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, and logistics APIs across teams and independently.
 Most recently I built HireJourney solo from scratch. FastAPI backend, React and TypeScript frontend, OpenRouter LLM integrations, Redis caching, Chrome extension, and dual payment infrastructure with automatic IP-based routing. Live users, real product.
 I've worked in agile teams, shipped under pressure, and taken ownership of features end to end. Whether I'm collaborating or building independently, I show up the same way focused on outcomes, not just tasks.`;
 
