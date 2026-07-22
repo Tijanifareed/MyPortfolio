@@ -6,16 +6,16 @@ import project5 from "../assets/projects/project-5.png"
 import project6 from "../assets/projects/project-6.png"
 import project7 from "../assets/projects/project-7.png"
 import project8 from "../assets/projects/project-8.jpg"
-import project0 from "../assets/projects/project-0.png"
+import project9 from "../assets/projects/project-9.jpg"
+import project10 from "../assets/projects/project-10.jpg"
+import project11 from "../assets/projects/project-11.jpg"
 
 
 
-export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
-
-export const ABOUT_TEXT = `I started writing code at 15, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, and logistics APIs across teams and independently.
-Most recently I built HireJourney solo from scratch. FastAPI backend, React and TypeScript frontend, OpenRouter LLM integrations, Redis caching, Chrome extension, and dual payment infrastructure with automatic IP-based routing. Live users, real product.
+export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, e-commerce, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users, from an AI career platform to an e-commerce store to an AI-driven crypto trading bot. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
+export const ABOUT_TEXT = `I started writing code at 15, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, logistics APIs, and e-commerce platforms across teams and independently.
+Most recently I built HireJourney solo from scratch. FastAPI backend, React and TypeScript frontend, OpenRouter LLM integrations, Redis caching, Chrome extension, and dual payment infrastructure with automatic IP-based routing. Live users, real product. Alongside it, I've built an AI-driven crypto trading bot that pulls live market data and news to generate real trading signals, and a full-stack e-commerce platform with its own admin dashboard.
 I've worked in agile teams, shipped under pressure, and taken ownership of features end to end. Whether I'm collaborating or building independently, I show up the same way focused on outcomes, not just tasks.`;
-
 export const EXPERIENCES = [
   {
 year: "Oct 2025 - Present",
@@ -47,15 +47,12 @@ technologies: ["FastAPI", "React", "TypeScript", "PostgreSQL", "Redis", "OpenRou
     technologies: ["Full-Stack Development","Databases", "Agile Methodology", "Version Control", "Design-Thinking", "Critical-Thinking",],
   },
   {
-    year:"January 2023 – February 2024",
+    year:"January 2023 – Present",
     role: "Software Engineer",
     company: " Independent Contracts",
-    description:`Delivered end-to-end software solutions for international clients across lifestyle, e-commerce, and personal branding sectors, focusing on scalability, usability, and performance.`,
-    technologies: ["Full-stack Development", "React", "TailwindCSS", "HTML", "CSS"]
+    description:`Delivered end-to-end software solutions for international clients across lifestyle, e-commerce, and personal branding sectors, focusing on scalability, usability, and performance. Built core screens and features for a Flutter-based fintech loan app under NDA, integrating Smile ID for KYC and Paystack for in-app repayments, and connecting the full loan flow to backend APIs. Built the frontend for a Flutter-based healthcare mobile app under NDA, translating Figma designs into a fully responsive UI.`,
+    technologies: ["Full-stack Development", "React", "TailwindCSS", "HTML", "CSS", "Flutter", "Smile-ID", "Paystack"]
   }
-  
-
-  
 
 ];
 
@@ -137,8 +134,36 @@ export const PROJECTS = [
     technologies: ["NextJS", "React", "TailwindCSS"],
   },
 
+  {
+    title: "Shoe Store E-Commerce Platform",
+    image: project9,
+    github:"",
+    postman:"",
+    description:
+      "A full-stack e-commerce platform for a shoe retailer, with a customer storefront and an admin dashboard for managing inventory, orders, and products.",
+    technologies: ["NextJS", "TypeScript", "NeonDB", "Drizzle ORM", "Cloudinary", "Paystack"],
+  },
 
-  
+  {
+    title: "Crypto Signal Bot",
+    image: project10,
+    github:"",
+    postman:"",
+    description:
+      "An automated trading signal bot combining technical and fundamental analysis, pulling live market data and news, and delivering real-time signals through a Telegram bot.",
+    technologies: ["Python", "FastAPI", "Pandas", "OpenRouter (Claude)", "Redis", "NeonDB", "Docker", "Fly.io"],
+  },
+
+  {
+    title: "Trading Journal",
+    image: project11,
+    github:"",
+    postman:"",
+    description:
+      "A personal trading journal for logging trades and tracking performance stats over time.",
+    technologies: ["TypeScript", "Drizzle ORM", "Supabase"],
+  },
+
 ];
 
 export const CONTACT = {
