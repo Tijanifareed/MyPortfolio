@@ -137,7 +137,7 @@ export const PROJECTS = [
   {
     title: "Shoe Store E-Commerce Platform",
     image: project9,
-    github:"",
+    github:"https://lamore-shoes.vercel.app",
     postman:"",
     description:
       "A full-stack e-commerce platform for a shoe retailer, with a customer storefront and an admin dashboard for managing inventory, orders, and products.",
@@ -157,7 +157,7 @@ export const PROJECTS = [
   {
     title: "Trading Journal",
     image: project11,
-    github:"",
+    github:"https://my-trading-journal-hazel.vercel.app",
     postman:"",
     description:
       "A personal trading journal for logging trades and tracking performance stats over time.",
