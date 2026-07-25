@@ -12,7 +12,7 @@ import project11 from "../assets/projects/project-11.jpg"
 
 
 
-export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, e-commerce, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users, from an AI career platform to an e-commerce store to an AI-driven crypto trading bot. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
+export const HERO_CONTENT = `Full-stack engineer who turns ideas into real-world products across fintech, e-commerce, logistics, mobile, and AI. I specialize in backend engineering with Python and Java, frontend with React and TypeScript, and cross-platform mobile with Flutter. 18, based in Lagos, open to remote roles and relocation worldwide. I've worked in teams, led sprints, and built entire platforms solo from zero to live users, from an AI career platform to an e-commerce store to an AI-driven crypto trading bot. Beyond just calling an API, I've built production AI systems that orchestrate multiple LLMs (Claude, GPT, Gemini) for real reasoning tasks, from resume and job-fit analysis to sentiment scoring across live news for trading signals. Most recently shipped HireJourney, an AI career platform with 40+ APIs, LLM integrations, a Chrome extension, and dual payment infrastructure serving Nigeria and the world. I write clean APIs, ship fast, and take full ownership of whatever I touch.`;
 export const ABOUT_TEXT = `I started writing code at 15, freelancing for clients in the UK before most people my age had their first job. Since then I've built fintech backends, Flutter mobile apps, booking platforms, logistics APIs, and e-commerce platforms across teams and independently.
 Most recently I built HireJourney solo from scratch. FastAPI backend, React and TypeScript frontend, OpenRouter LLM integrations, Redis caching, Chrome extension, and dual payment infrastructure with automatic IP-based routing. Live users, real product. Alongside it, I've built an AI-driven crypto trading bot that pulls live market data and news to generate real trading signals, and a full-stack e-commerce platform with its own admin dashboard.
 I've worked in agile teams, shipped under pressure, and taken ownership of features end to end. Whether I'm collaborating or building independently, I show up the same way focused on outcomes, not just tasks.`;
@@ -57,6 +57,35 @@ technologies: ["FastAPI", "React", "TypeScript", "PostgreSQL", "Redis", "OpenRou
 ];
 
 export const PROJECTS = [
+  {
+    title: "Crypto Signal Bot",
+    image: project10,
+    github:"",
+    postman:"",
+    description:
+      "An automated trading signal bot combining technical and fundamental analysis, pulling live market data and news, and delivering real-time signals through a Telegram bot.",
+    technologies: ["Python", "FastAPI", "Pandas", "OpenRouter (Claude)", "Redis", "NeonDB", "Docker", "Fly.io"],
+  },
+
+  {
+    title: "Trading Journal",
+    image: project11,
+    github:"https://my-trading-journal-hazel.vercel.app",
+    postman:"",
+    description:
+      "A personal trading journal for logging trades and tracking performance stats over time.",
+    technologies: ["TypeScript", "Drizzle ORM", "Supabase"],
+  },
+  {
+    title: "Shoe Store E-Commerce Platform",
+    image: project9,
+    github:"https://lamore-shoes.vercel.app",
+    postman:"",
+    description:
+      "A full-stack e-commerce platform for a shoe retailer, with a customer storefront and an admin dashboard for managing inventory, orders, and products.",
+    technologies: ["NextJS", "TypeScript", "NeonDB", "Drizzle ORM", "Cloudinary", "Paystack"],
+  },
+
   {
     title: "CommsBridge Mobile App",
     image: project1,
@@ -132,36 +161,6 @@ export const PROJECTS = [
     description:
       "Built A demo website for a make-up Artist.",
     technologies: ["NextJS", "React", "TailwindCSS"],
-  },
-
-  {
-    title: "Shoe Store E-Commerce Platform",
-    image: project9,
-    github:"https://lamore-shoes.vercel.app",
-    postman:"",
-    description:
-      "A full-stack e-commerce platform for a shoe retailer, with a customer storefront and an admin dashboard for managing inventory, orders, and products.",
-    technologies: ["NextJS", "TypeScript", "NeonDB", "Drizzle ORM", "Cloudinary", "Paystack"],
-  },
-
-  {
-    title: "Crypto Signal Bot",
-    image: project10,
-    github:"",
-    postman:"",
-    description:
-      "An automated trading signal bot combining technical and fundamental analysis, pulling live market data and news, and delivering real-time signals through a Telegram bot.",
-    technologies: ["Python", "FastAPI", "Pandas", "OpenRouter (Claude)", "Redis", "NeonDB", "Docker", "Fly.io"],
-  },
-
-  {
-    title: "Trading Journal",
-    image: project11,
-    github:"https://my-trading-journal-hazel.vercel.app",
-    postman:"",
-    description:
-      "A personal trading journal for logging trades and tracking performance stats over time.",
-    technologies: ["TypeScript", "Drizzle ORM", "Supabase"],
   },
 
 ];
