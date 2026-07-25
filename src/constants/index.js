@@ -167,6 +167,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Sabo, Lagos, Nigeria",
-  phoneNo: "+2348130926516",
+  phoneNo: "+2348084562163",
   email: "fareedtijani2810@gmail.com",
 };
